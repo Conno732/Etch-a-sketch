@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(138, 131, 131);
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.content {
+  flex-grow: 0;
+  border: hidden;
+  border-radius: 20px;
+}
+
+.drawspace {
+  display: flex;
+}
+
+.title {
+  background-color: white;
+  font-size: 32px;
+  text-align: center;
+  border-radius: 5x;
+  border-style: solid;
+}
+
+#controls {
+  background-color: white;
+  border-style: solid;
+  height: 800px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.innerCon {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options {
+  border-style: solid;
+  width: 100%;
+  margin: 0;
+  background-color: lightgray;
+  padding: 8px;
+}
+
+.slider {
+  width: 80%;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+#gridInput {
+  font-size: 16px;
+  padding: 16px;
+  font-weight: bold;
+}
+
+#grid {
+  background-color: white;
+  border: solid;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rows {
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+}
+
+.squares {
+  border-style: solid;
+  border-width: 1px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.footer {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
